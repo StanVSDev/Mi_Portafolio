@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="loader">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            });
+        </script>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Bienvenido a mi portafolio</h1>
+            </div>
+            <nav class="menu">
+                <a href="#">¿Quien soy?</a>
+                <a href="#">Mis proyectos</a>
+                <a href="#">Mis contactos</a>
+                <a href="#">Mi CV</a>
+            </nav>
+        </div>
+    </header>
+    <div class="capa"></div>
+    <div class="container-page_1">
+        <div class="cont-page_1">
+            <p>¿Quien soy?</p><br>  
+            <div class="Info">
+                ¡Hola!<br>
+                Mi nombre es <b>Brandon Stanly Ventura Sanchez</b>, soy pasante de la carrera de Ingenieria Mecatronica y con 3 años de experiencia en 
+                soporte tecnico y areas tecnica a fines, con amplio conocimiento en el área de informática y sus ramas, con experiencia en desarrollo
+                web, software y electrónica, pasante de la carrera de Ingenieria en Mecatronica.<br><br>
+                Mi ultimo grado academico fue en Bachillerato tecnico profesional en informatica el cual lo curse en el Instituto Gubernamental Union y Esfuerzo
+                actualmente me encuentro estudiando la carrera de Ingenieria en Mecatronica en la Universidad Tecnologica de Hondura (UTH), iniciando
+                mi periodo academico en marzo del 2023 con un total de 10 clases cursadas de 61.<br><br>
+            </div>
+        </div>
+        <div class="circle"></div>
+    </div>
+    <br><hr>
+    <center>
+        <div class="Btn_Menu">
+            <nav class="menu_2">
+                <a href="#"><button>PixelWorld</button></a>
+                <a href="#"><button>BillingArea</button></a>
+                <a href="#"><button>NeurnalCar</button></a>
+                <a href="#"><button>More Circuit</button></a>
+            </nav>
+        </div>
+    </center>
+    <hr>
+    <div class="container-page_2">
+        <div class="cont-page_2">
+            <p>Proyectos</p><br>
+            <div class="Info_2">
+                <div class="P1">
+                    <a href="#">PixelWorld (Web Page)</a><br>
+                    PixelWorld, es unos de los primeros proyectos web que lleve acabo de manera autodidacta, en el cual puse en practica mmis conocimientos en
+                    HTML5, CSS y Javascript, la pagina web es dedicada a los videojuegos mas es especifico en la creacion de una tienda online de juegos indie,
+                    los cuales eran de acceso gratuito (Pirateados), la pagina web no contaba con base de datos como tal, ya que utilizaba la nube Mediafire para
+                    almacenar los juegos y solo se redigia a la descarga, como servicio de alojamiento utilice GitHub, hoy en dia solo cuento con el codigo de la
+                    pagina, ya que sigo realizando actualizaciones y no esta no ha sido subida nuevamente a GitHub.
+                </div>
+                <div class="image-container">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img1.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img2.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img3.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img4.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img5.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img6.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img7.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Img_Proyect/PixelWorld/Img8.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <script src="script_carrocel.js"></script>
+                </div>
+                <br><br>
+                <a href="#">BillingArea(Desktop software)</a><br>
+                BillingArea, programa de escritorio el cual realice cuando un amigo inicio su negocio y necesitaba un Software de facturacion el cual tuviera
+                completos accesos a generacion de reportes, proveedores, generacion de facturas, filtrado de productos, inventarios y sistema de usuarios.<br>
+                Esta programado en C# y utiliza una base de datos local generada por el software la cual fue realizada con SQL utilizando la programacion por 
+                capas, para agilizar y poder optimizar los procesos y el codigo mismo dentro del software.
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <center><a style="font-family: 'Montserrat Alternates', sans-serif; color: white; font-size: 20px;" href="#">Ver proyectos</a></center>
+    <br>
+    <div class="Copy">&reg;Portafolio &copy;2022 Stanvs_Dev</div> 
+    <br>
+
+    <!-- Modal para visualizar la imagen en grande -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+</body>
+</html>
